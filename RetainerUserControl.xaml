@@ -25,7 +25,7 @@
             <StackPanel VerticalAlignment="Center" Height="190" Padding="0 90 0 0">
                 <TextBlock x:Name="fsr6Name" Width="50" Height="30" Text="MC" FontSize="20" Padding="9 0 0 0" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <Ellipse x:Name="fsr6" Width="50" Height="50" Fill="Gray" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock x:Name="fsr6Value" Text="{Binding ForceSensor2Value, Mode=OneWay}" HorizontalAlignment="Center" FontSize="18"/>
+                <TextBlock x:Name="fsr6Value" Text="{Binding ForceSensor6Value, Mode=OneWay}" HorizontalAlignment="Center" FontSize="18"/>
             </StackPanel>
 
             <!-- Display FSR1, Left Middle, mid with sensor value -->
